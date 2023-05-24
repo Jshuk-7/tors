@@ -1,0 +1,6 @@
+[submodule "vendor/dyn_string"]
+	path = vendor/dyn_string
+	url = https://github.com/Jshuk-7/dyn_string
+[submodule "vendor/dyn_array"]
+	path = vendor/dyn_array
+	url = https://github.com/Jshuk-7/dyn_array
