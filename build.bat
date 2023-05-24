@@ -1,7 +1,8 @@
 @echo off
 
-set src="tors/src/tors.c"
+set SRC="tors/src/tors.c"
+set INCLUDE_DIR="vendor"
 
-gcc %src% -o "build/tors.exe"
+gcc %SRC% -o "build/tors.exe" -I %INCLUDE_DIR%
 
 pause
